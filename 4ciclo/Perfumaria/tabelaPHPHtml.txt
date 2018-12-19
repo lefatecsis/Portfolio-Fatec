@@ -1,0 +1,20 @@
+
+ <table>
+ <tr>
+  <th>Id</th> 
+  <th>Username</th> 
+  <th>Password</th>
+ </tr>
+ <?php
+   // output data of each row
+   while($row = $result->fetch_assoc()) {
+    echo "<tr><td>" . $row["id"]. "</td><td>" . $row["username"] . "</td><td>"
+. $row["password"]. "</td></tr>";
+}
+echo "</table>";
+} else { echo "0 results"; }
+$conn->close();
+?>
+</table>
+</body>
+</html>
