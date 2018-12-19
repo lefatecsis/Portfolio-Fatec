@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="Content-Language" content="pt-br">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="keywords" content="Reciclagem, preservação ambiental, natureza"/>
+      <title>Reciclagem e Preservação Ambiental</title>
+      <link rel="icon" href="img/logo.png"/>
+      <link rel="stylesheet" href="./css/reset.css">
+      <link rel="stylesheet" href="./css/contraste.css">
+      <link rel="stylesheet" href="./css/acessibilidade.css">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   </head>
+   <body>
+      <!-----------------------------Menu Acessibilidade----------------------------->
+      <nav role="navigation" class="menuAcessibilidade">
+         <ul>
+            <li id="botaoConteudo"><a href="#conteudoPrincipal" accesskey="1">Ir para o Conteúdo Principal [Alt + 1]</a></li>
+            <li id= "inicioMenu"><a href="#menu" accesskey="2">Início do Menu [Alt + 2]</a></li>
+            <li ><a id="altocontraste"  accesskey="3" onclick="window.toggleContrast()" onkeydown="window.toggleContrast()"><img src="img/autocontraste.png" alt="botao altocontraste" width="20px" height="20px"></a></li>
+            <li><button onClick="fonte('d');">A-</button></li>
+            <li><button onClick="fonte('a');">A+</button></li>
+            <li id="mapaSite"><a href="mapaSite.html" accesskey="3">Mapa do Site [Alt + 3]</a></li>
+         </ul>
+         <!-----------------------------Menu Principal----------------------------->
+      </nav>
+      <nav class="topnav" id="myTopnav">
+         <a href="index.html" class="active" id="logo" name="menu">RECICLARE</a>
+         <a href="porque.html">Porque?</a>
+         <a href="como.html">Como?</a>
+         <a href="onde.html">Onde?</a>
+         <div class="search-container">
+            <form action="/action_page.php">
+               <label for="busca">
+                  <input type="text" name="busca" id="busca" placeholder="Pesquisa...">
+                  <button type="submit">Buscar</button>
+               </label>               
+            </form>
+         </div>
+      </nav>
+      <!-----------------------------Slider----------------------------->
+      <div class="slide" >
+         <img class="mySlides" src="img/lata.amarela.svg" alt="lata amarela" width="1600" height="400">
+         <img class="mySlides" src="img/lata.azul.svg" alt="lata azul" width="1600" height="400">
+         <img class="mySlides" src="img/lata.branco.svg" alt="lata branca" width="1600" height="400">
+         <img class="mySlides" src="img/lata.cinza.svg" alt="lata cinza"width="1600" height="400">
+         <img class="mySlides" src="img/lata.laranja.svg" alt="lata laranja"width="1600" height="400">
+         <img class="mySlides" src="img/lata.preto.svg" alt="lata preto"width="1600" height="400">
+         <img class="mySlides" src="img/lata.roxo.svg" alt="lata roxo"width="1600" height="400">
+         <img class="mySlides" src="img/lata.verde.svg" alt="lata verde"width="1600" height="400">
+         <img class="mySlides" src="img/lata.vermelha.svg" alt="lata vermelha"width="1600" height="400">
+      </div>
+      <!-----------------------------Conteudo----------------------------->
+      <section class="acessibilidade">
+         <h2>Mapa do Site</h2>
+         <hr>
+         <div class="flex-container">
+            <div class="itemmapa">
+               <a name="conteudoPrincipal">
+                  <div class="titmapa">
+               <a href="index.html">Página Inicial</a></div>
+               <hr>
+               <ul>
+                  <li>
+                     <a href="https://projetodraft.com/reciclagem-concede-mais-de-900-mil-reais-de-desconto-nas-contas-de-luz/">
+                        Reciclagem concede mais de 900 mil reais de desconto nas contas de luz
+                  </li>
+                  <li><a href="https://www.ecycle.com.br/149-descarte-de-medicamentos-vencidos">Descarte de medicamentos vencidos: como e onde descartar corretamente</a></li>
+                  <li><a href="http://www.artesanato.com/blog/brinquedos-reciclados/">48 Brinquedos Reciclados que as Crianças vão Amar</a></li>
+                  <li><a href="https://vejasp.abril.com.br/cidades/reciclagem-em-sao-paulo-um-lixo-mas-ha-solucoes/">São Paulo é um lixo, mas há soluções</a></li>
+                  <li><a href="https://www.ecycle.com.br/component/content/article/35-atitude/6348-materiais-para-fabricar-embalagens-sustentaveis.html">13 materiais inusitados para fabricação de embalagens sustentáveis</a></li>
+                  <li><a href="https://www.youtube.com/embed/ob-mEWKGnBQ?rel=0">Turma da Mônica cantado a música dos 3 R's</a></li>
+               </ul>
+            </div>
+            <div class="itemmapa">
+               <div class="titmapa"><a href="como.html">Porque Reciclar?</a></div>
+               <hr>
+               <p>Artigo apontando os beneficios da reciclagem e o levantamento da situação de algumas capitais na questão de reciclagem</p>
+            </div>
+            <div class="itemmapa">
+               <div class="titmapa"><a href="como.html">Como Reciclar?</a></div>
+               <hr>
+               <ul type="square">
+                  <li><a href="como.html#papel">Papéis</a></li>
+                  <li><a href="como.html#metal">Latas</a></li>
+                  <li><a href="como.html#madeira">Madeiras</a></li>
+                  <li><a href="como.html#organico">Orgânicos</a></li>
+                  <li><a href="como.html#vidro">Vidros</a></li>
+                  <li><a href="como.html#plastico">Plásticos</a></li>
+                  <li><a href="como.html#perigosos">Perigosos</a></li>
+                  <li><a href="como.html#radioativo">Radioativos</a></li>
+                  <li><a href="como.html#ambulatorial">Ambulatorias</a></li>
+               </ul>
+            </div>
+            <div class="itemmapa">
+               <div class="titmapa"><a href="como.html">Onde Reciclar?</a></div>
+               <hr>
+               <p>Localize os principais pontos de reciclagem da sua cidade</p>
+            </div>
+         </div>
+         <a href="#menu" id="voltarTop"><img src="img/top.png" alt="voltar ao inicio" width="50" height="50"></a>
+      </section>
+      <!-----------------------------Rodapé----------------------------->
+      <footer>
+         <div class="rodape" >
+            <div class="redes"><a href="https://pt-br.facebook.com/" target="blank" > <img src="img/facebook.svg" alt="Icone Facebook" width="50px" height="50px"></a>
+               <a href="https://twitter.com/?lang=pt-br" target="blank"> <img src="img/twitter.svg" alt="Icone Twitter" width="50px" height="50px"></a>
+               <a href="https://www.linkedin.com/portugues" target="blank"> <img src="img/linkedin.svg" alt="Icone Linkedin" width="50px" height="50px"></a>   
+               <a href="https://www.blogger.com/home" target="blank"> <img src="img/blogger.svg" alt="Icone Blogger" width="50px" height="50px"></a>
+            </div>
+         </div>
+         <div class="rodape">
+            <div class="acessibilidade">
+               <p>Endereço: Av. Francisco Pignatari, 650<br>Vila Gustavo Correia, Carapicuíba - SP<br>CEP: 06310-390 Tel: (11)7788-6411</p>
+            </div>
+         </div>
+      </footer>
+      <script type="text/javascript" src="js/contraste.js"></script>
+      <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+      <script type="text/javascript" src="js/acessibilidade.js"></script>
+   </body>
+</html>

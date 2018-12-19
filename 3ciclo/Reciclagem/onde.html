@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="Content-Language" content="pt-br">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="keywords" content="Reciclagem, preservação ambiental, natureza"/>
+      <title>Reciclagem e Preservação Ambiental</title>
+      <link rel="icon" href="img/logo.png"/>
+      <link rel="stylesheet" href="./css/reset.css">
+      <link rel="stylesheet" href="./css/contraste.css">
+      <link rel="stylesheet" href="./css/acessibilidade.css">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   </head>
+   <body>
+      <!-----------------------------Menu Acessibilidade----------------------------->
+      <nav role="navigation" class="menuAcessibilidade">
+         <ul>
+            <li id="botaoConteudo"><a href="#conteudoPrincipal" accesskey="1">Ir para o Conteúdo Principal [Alt + 1]</a></li>
+            <li id= "inicioMenu"><a href="#menu" accesskey="2">Início do Menu [Alt + 2]</a></li>
+             <li ><a id="altocontraste"  accesskey="3" onclick="window.toggleContrast()" onkeydown="window.toggleContrast()"><img src="img/autocontraste.png" alt="botao altocontraste" width="20px" height="20px"></a></li>
+            <li><button onClick="fonte('d');">A-</button></li>
+            <li><button onClick="fonte('a');">A+</button></li>
+            <li id="mapaSite"><a href="mapaSite.html" accesskey="3">Mapa do Site [Alt + 3]</a></li>
+         </ul>
+         <!-----------------------------Menu Principal----------------------------->
+      </nav>
+      <nav class="topnav" id="myTopnav">
+         <a href="index.html" class="active" id="logo" name="menu">RECICLARE</a>
+         <a href="porque.html">Porque?</a>
+         <a href="como.html">Como?</a>
+         <a href="onde.html">Onde?</a>
+         <a href="quiz.html">Quiz</a>
+         <div class="search-container">
+            <form action="/action_page.php">
+               <label for="busca">
+                  <input type="text" name="busca" id="busca" placeholder="Pesquisa...">
+                  <button type="submit">Buscar</button>
+               </label>               
+            </form>
+         </div>
+      </nav>
+      <!-----------------------------Slider----------------------------->
+      <div class="slide" >
+         <img class="mySlides" src="img/lata.amarela.svg" alt="lata amarela" width="1600" height="400">
+         <img class="mySlides" src="img/lata.azul.svg" alt="lata azul" width="1600" height="400">
+         <img class="mySlides" src="img/lata.branco.svg" alt="lata branca" width="1600" height="400">
+         <img class="mySlides" src="img/lata.cinza.svg" alt="lata cinza"width="1600" height="400">
+         <img class="mySlides" src="img/lata.laranja.svg" alt="lata laranja"width="1600" height="400">
+         <img class="mySlides" src="img/lata.preto.svg" alt="lata preto"width="1600" height="400">
+         <img class="mySlides" src="img/lata.roxo.svg" alt="lata roxo"width="1600" height="400">
+         <img class="mySlides" src="img/lata.verde.svg" alt="lata verde"width="1600" height="400">
+         <img class="mySlides" src="img/lata.vermelha.svg" alt="lata vermelha"width="1600" height="400">
+      </div>
+      <!-----------------------------Conteudo----------------------------->
+         <section class="onde">
+            <label for="estado">Selecione o estado:
+            <select class="sl-estado" name="estado" id="estado">
+               <option>Acre</option>
+               <option>Alagoas</option>
+               <option>Amapá</option>
+               <option>Amazonas</option>
+               <option>Bahia</option>
+               <option>Ceará</option>
+               <option>Distrito Federal</option>
+               <option>Espírito Santo</option>
+               <option>Goiás</option>
+               <option>Maranhão</option>
+               <option>Mato Grosso</option>
+               <option>Mato Grosso do Sul</option>
+               <option>Minas Gerais</option>
+               <option>Pará</option>
+               <option>Paraíba</option>
+               <option>Paraná</option>
+               <option>Pernambuco</option>
+               <option>Piauí</option>
+               <option>Rio de Janeiro</option>
+               <option>Rio Grande do Norte</option>
+               <option>Rio Grande do Sul</option>
+               <option>Rondônia</option>
+               <option>Roraima</option>
+               <option>Santa Catarina</option>
+               <option>São Paulo</option>
+               <option>Sergipe</option>
+               <option>Tocantins</option>
+            </select>
+         </label>
+            <label for="cidade">Selecione a cidade: 
+            <select class="sl-cidade" name="cidade" id="cidade">
+               <option>Recife</option>
+               <option>João Pessoa</option>
+            </select>
+         </label>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d58538.74311533778!2d-46.80757064508687!3d-23.508340890762593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1spontos+de+recicilagem+em+osasco!5e0!3m2!1spt-BR!2sbr!4v1478367748486" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+         </section>
+         <a href="#menu" id="voltarTop"><img src="img/top.png" alt="voltar ao inicio" width="50" height="50"></a>
+      <footer>
+         <div class="rodape" >
+            <div class="redes"><a href="https://pt-br.facebook.com/" target="blank" > <img src="img/facebook.svg" alt="Icone Facebook" width="50px" height="50px"></a>
+               <a href="https://twitter.com/?lang=pt-br" target="blank"> <img src="img/twitter.svg" alt="Icone Twitter" width="50px" height="50px"></a>
+               <a href="https://www.linkedin.com/portugues" target="blank"> <img src="img/linkedin.svg" alt="Icone Linkedin" width="50px" height="50px"></a>   
+               <a href="https://www.blogger.com/home" target="blank"> <img src="img/blogger.svg" alt="Icone Blogger" width="50px" height="50px"></a>
+            </div>
+         </div>
+         <div class="rodape">
+            <p>Endereço: Av. Francisco Pignatari, 650<br>Vila Gustavo Correia, Carapicuíba - SP<br>CEP: 06310-390 Tel: (11)7788-6411</p>
+         </div>
+      </footer>
+      <script type="text/javascript" src="js/contraste.js"></script>
+      <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+      <script type="text/javascript" src="js/acessibilidade.js"></script>
+   </body>
+</html>

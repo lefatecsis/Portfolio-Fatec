@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="Content-Language" content="pt-br">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="keywords" content="Reciclagem, preservação ambiental, natureza"/>
+      <title>Reciclagem e Preservação Ambiental</title>
+      <link rel="icon" href="img/logo.png"/>
+      <link rel="stylesheet" href="./css/reset.css">
+      <link rel="stylesheet" href="./css/contraste.css">
+      <link rel="stylesheet" href="./css/acessibilidade.css">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   </head>
+   <body>
+      <!-----------------------------Menu Acessibilidade----------------------------->
+      <nav role="navigation" class="menuAcessibilidade">
+         <ul>
+            <li id="botaoConteudo"><a href="#conteudoPrincipal" accesskey="1">Ir para o Conteúdo Principal [Alt + 1]</a></li>
+            <li id= "inicioMenu"><a href="#menu" accesskey="2">Início do Menu [Alt + 2]</a></li>
+             <li ><a id="altocontraste"  accesskey="3" onclick="window.toggleContrast()" onkeydown="window.toggleContrast()"><img src="img/autocontraste.png" alt="botao altocontraste" width="20px" height="20px"></a></li>
+            <li><button onClick="fonte('d');">A-</button></li>
+            <li><button onClick="fonte('a');">A+</button></li>
+            <li id="mapaSite"><a href="mapaSite.html" accesskey="3">Mapa do Site [Alt + 3]</a></li>
+         </ul>
+         <!-----------------------------Menu Principal----------------------------->
+      </nav>
+      <nav class="topnav" id="myTopnav">
+         <a href="index.html" class="active" id="logo" name="menu">RECICLARE</a>
+         <a href="porque.html">Porque?</a>
+         <a href="como.html">Como?</a>
+         <a href="onde.html">Onde?</a>
+         <div class="search-container">
+            <form action="/action_page.php">
+               <label for="busca">
+                  <input type="text" name="busca" id="busca" placeholder="Pesquisa...">
+                  <button type="submit">Buscar</button>
+               </label>               
+            </form>
+         </div>
+      </nav>
+            <!-----------------------------Slider----------------------------->
+      <div class="slide" >
+         <img class="mySlides" src="img/lata.amarela.svg" alt="lata amarela" width="1600" height="400">
+         <img class="mySlides" src="img/lata.azul.svg" alt="lata azul" width="1600" height="400">
+         <img class="mySlides" src="img/lata.branco.svg" alt="lata branca" width="1600" height="400">
+         <img class="mySlides" src="img/lata.cinza.svg" alt="lata cinza"width="1600" height="400">
+         <img class="mySlides" src="img/lata.laranja.svg" alt="lata laranja"width="1600" height="400">
+         <img class="mySlides" src="img/lata.preto.svg" alt="lata preto"width="1600" height="400">
+         <img class="mySlides" src="img/lata.roxo.svg" alt="lata roxo"width="1600" height="400">
+         <img class="mySlides" src="img/lata.verde.svg" alt="lata verde"width="1600" height="400">
+         <img class="mySlides" src="img/lata.vermelha.svg" alt="lata vermelha"width="1600" height="400">
+      </div>
+      <!-----------------------------Conteudo----------------------------->
+      <section class="como">
+         <article class="acessibilidade">
+            <h2>Saiba como funciona os 3 R's!</h2>
+            <hr>
+            <p>Os 3 Rs da sustentabilidade (Reduzir, Reutilizar e Reciclar), são ações práticas que visam estabelecer uma relação mais harmônica entre consumidor e meio ambiente.</p>
+            <br>
+            <p><u><strong>Reduzir</strong></u> - Significa comprar bens e serviços de acordo com nossas necessidades para evitar desperdícios (consumo consciente).</p>
+            <br>
+            <p><u><strong>Reutilizar</strong></u> - Geramos uma boa economia doméstica, além de estarmos colaborando para o desenvolvimento sustentável do planeta.</p>
+            <br>
+            <p><u><strong>Reciclar</strong></u> - Além de gerar renda e emprego para pessoas que trabalham com reciclagem, é uma atitude que alivia o Meio Ambiente de resíduos que vão levar anos ou séculos para serem decompostos. </p>
+         </article>
+         <hr>
+         <h3>Clique em uma das imagens abaixo para saber como reciclar cada tipo de material</h3>
+         <div class="flex-container" >
+            <a name="conteudoPrincipal">
+               <div class="card">
+                  <div class="container">
+            <a href="#papel">
+            <img src="img/papeis.svg" alt="papel" width="100" height="100" style="width: 100%">
+            <h4><strong>PAPÉIS</strong></h4>
+            </a>
+            </div>
+            </div>
+            <div class="card">
+               <div class="container">
+                  <a href="#metal">
+                     <img src="img/latas.svg" alt="metal" width="100" height="100"  style="width: 100%">
+                     <h4><strong>LATAS</strong></h4>
+                  </a>
+               </div>
+            </div>
+            <div class="card">
+               <div class="container">
+                  <a href="#madeira">
+                     <img src="img/madeira.svg" alt="madeira" width="100" height="100" style="width: 100%">
+                     <h4><strong>MADEIRAS</strong></h4>
+                  </a>
+               </div>
+            </div>
+         </div>
+         <div class="flex-container">
+            <div class="card">
+               <div class="container">
+                  <a href="#organico">
+                     <img src="img/organico.svg" alt="organico" width="100" height="100" style="width: 100%">
+                     <h4><strong>ORGÂNICOS</strong></h4>
+                  </a>
+               </div>
+            </div>
+            <div class="card">
+               <div class="container">
+                  <a href="#vidro">
+                     <img src="img/garrafas.svg" alt="vidro" width="100" height="100" style="width: 100%">
+                     <h4><strong>VIDROS</strong></h4>
+                  </a>
+               </div>
+            </div>
+            <div class="card">
+               <div class="container">
+                  <a href="#plastico">
+                     <img src="img/plastico.svg" alt="plastico" width="100" height="100" style="width: 100%">
+                     <h4><strong>PLÁSTICOS</strong></h4>
+                  </a>
+               </div>
+            </div>
+         </div>
+         <div class="flex-container">
+            <div class="card">
+               <div class="container">
+                  <a href="#perigoso">
+                     <img src="img/toxico.svg" alt="perigoso" width="100" height="100" style="width: 100%">
+                     <h4><strong>PERIGOSOS</strong></h4>
+                  </a>
+               </div>
+            </div>
+            <div class="card">
+               <div class="container">
+                  <a href="#radiotivo">
+                     <img src="img/radioactive.svg" alt="radiotivo" width="100" height="100" style="width: 100%">
+                     <h4><strong>RADIOATIVO</strong></h4>
+                  </a>
+               </div>
+            </div>
+            <div class="card">
+               <div class="container">
+                  <a href="#ambulatorial">
+                     <img src="img/seringa.svg" alt="ambulatorial" width="100" height="100" style="width: 100%">
+                     <h4><strong>AMBULATORIAL</strong></h4>
+                  </a>
+               </div>
+            </div>
+         </div>
+         </div>
+         </article>
+         </div>
+         <div class="column1" >
+            <article><a name="papel">
+               <h2>Como Reciclar Papéis</h2>
+               <hr>
+               <p>Uma das etapas mais importantes no processo de reciclagem de papel é a separação e coleta seletiva do papel. Nas empresas, condomínios e outros locais existem espaços destinados ao descarte de papel.</p>
+               <br>
+               <h4>Tipos de papéis recicláveis</h4>
+               <p>Tipos de papel que podem ser reciclados: papel sulfite, papelão, caixas de embalagens de produtos, papel de presente, folhas de caderno, entre outros.</p>
+               <br>
+               <h4>Como fazer papel reciclado em casa (reciclagem caseira)</h4>
+               <p>
+               <ul>
+                  <li>1º - Separe o papel que não está mais sendo utilizado, recorte em pequenos pedaços e coloque num recipiente com água. Deixe assim durante um dia completo.</li>
+               <li>2º - Pegue este papel molhado e bata num liquidificador ou mexa bastante até dissolver e virar uma espécie de massa.</li>
+               <li>3º - Coloque essa massa espalhada (no formato fino) numa espécie de rede fina e cubra com um peso que terá a função de prensar.</li>
+               <li>4º - Depois de 24 horas, retire o peso e deixe o papel secar, de preferência em ambiente seco ou ao sol.</li>
+               </p>
+               <p>Fonte: https://www.suapesquisa.com/reciclagem/reciclagem_de_papel.htm</p>
+            </article>
+            <article><a name="metal">
+               <h2>Como Reciclar Metais</h2>
+               <hr>
+               <p>
+                  Uma das etapas mais importantes no processo de reciclagem de metal é a separação e coleta seletiva do metal. Nas empresas, residências e outros locais existem espaços destinados ao descarte de metal.
+               </p>
+               <br>
+               <h4>Separação no processo de reciclagem</h4>
+               <p>Na primeira fase do processo de reciclagem de metal, os mesmos são separados por tipos e características. Desta forma, alumínio, cobre, aço e ferro passam por processos de reciclagem diferentes.</p>
+               <br>
+               <h4>Tipos de metais recicláveis</h4>
+               <ul>
+                  <li>Latas de alumínio (refrigerante, cerveja, etc.) e aço (latas de sardinha, molhos, óleo, etc.).</li>
+                  <li>Arames, pregos e parafusos.</li>
+                  <li>Fios de metal</li>
+                  <li>Tampas de metal</li>
+                  <li>Tubos de pasta</li>
+                  <li>Panelas sem cabo</li>
+                  <li>Arames</li>
+                  <li>Chapas de metal</li>
+                  <li>Objetos de alumínio (janelas, portas, portões, etc.).</li>
+                  <li>Fios e objetos de cobre</li>
+                  <li>Ferragens</li>
+                  <li>Canos de metal</li>
+                  <li>Molduras de quadros</li>
+                  <li>Tampinhas de garrafa</li>
+                  <li>Ferramentas de metal</li>
+                  <li>Retalhos de folhas de flandres</li>
+                  <li>Tampas metálicas de potes de iogurtes, margarinas, queijos, etc.</li>
+                  <li>Papel alumínio</li>
+               </ul>
+               <br>
+               <p>Fonte: https://www.suapesquisa.com/reciclagem/reciclagem_de_metal.htm</p>
+            </article>
+            <article><a name="madeira">
+               <h2>Como Reciclar Madeiras</h2>
+               <hr>
+               <p>Assim como em qualquer processo de transformação de matéria-prima em móveis e objetos que serão usados pelo consumidor final, o processo de extração da madeira também gera resíduos – seja na retirada das árvores da floresta, no transporte, na serraria ou na indústria. Estes resíduos podem ser reutilizados e reciclados, permitindo novas utilizações, de maneira criativa e sustentável.</p>
+               <p>A reciclagem de madeira apresenta soluções viáveis e interessantes no âmbito da sustentabilidade, pois permite a captação de renda àqueles que trabalham com esse tipo de reciclagem, ao mesmo tempo em que diminui a necessidade do corte de árvores e descarte de madeira no meio ambiente.</p>
+               <p>No recolhimento dos resíduos, a madeira passa por um processo de separação, trituração e retirada de impurezas presentes nos materiais – fitas metálicas, pregos, parafusos. Parte dela pode ser destinada à trituração em partes menores, até serem transformadas em lascas de madeira, cujo uso como serragem é altamente amplo:
+               <ul>
+                  <li>Para forrar o chão de abrigo de animais – hípicas, galinheiros, animais de fazenda e zoológicos;</li>
+                  <li>Adicionada a compostos específicos – pode ser usada como fertilizante, pois possui grande quantidade de carbono;</li>
+                  <li>Como combustível para aquecimento de fornos e caldeiras na indústria, ou mesmo forno a lenha de churrascarias e pizzarias;</li>
+                  <li>Uso nas indústrias de celulose para fabricação de determinados tipos de papéis;</li>
+               </ul>
+               <p>Os móveis e outros materiais que já passaram por algum processo de transformação e que não são destinados à serragem podem ser reutilizados, principalmente dentro de casa: pallets se tornam estrados de camas, caixotes viram estantes e porta CDs, troncos podem ser usados como bancos, além de esculturas e objetos de decoração que são peças únicas e originais. Essa iniciativa agrega novos valores aos materiais – agora de alta decoração – que não dispensam criatividade e beleza rústica.</p>
+               <p>Embora o processo de separação, trituração, limpeza e seleção das peças de madeira seja trabalhoso e demorado, os benefícios da reciclagem de madeira são incomparavelmente maiores às desvantagens, como a minimização do uso de recursos naturais, economia de energia e matérias-primas, geração de emprego e renda e incentivo aos conceitos sustentáveis.</p>
+               <br>
+               <p>Fonte: https://www.pensamentoverde.com.br/reciclagem/como-funciona-a-reciclagem-de-madeira/</p>
+            </article>
+            <article><a name="organico">
+               <h2>Como Reciclar Lixo Orgânico</h2>
+               <hr>
+               <p>Podemos citar como exemplos de lixo orgânico: restos de alimentos orgânicos (carnes, vegetais, frutos, cascas de ovos), papel, madeira, ossos, sementes, etc.</p>
+               <br>
+               <h4>Tratamento</h4>
+               <p>Este tipo de lixo precisa ser tratado com todo cuidado, pois pode gerar consequências indesejadas para os seres humanos como, por exemplo, mau cheiro, desenvolvimento de bactérias e fungos, aparecimento de ratos e insetos. Nestes casos, várias doenças podem surgir, através da contaminação do solo e da água.</p>
+               <br>
+               <h4>Chorume</h4>
+               <p>No processo de decomposição (apodrecimento) do lixo orgânico é produzido o chorume, que é um líquido viscoso e de cheiro forte e desagradável. O chorume também é um elemento que pode provocar a contaminação do solo e das águas (rios, lagos, lençóis freáticos).</p>
+               <br>
+               <h4>Aterros sanitários</h4>
+               <p>O lixo orgânico deve ser depositado em aterros sanitários, seguindo todas as normas de saneamento básico e tratamento de lixo. A população também pode contribuir para o tratamento deste lixo, favorecendo a coleta seletiva do lixo e a reciclagem.</p>
+               <br>
+               <h4>Lixo como fonte de energia</h4>
+               <p>Este tipo de lixo também pode ser usado para a produção de energia (biogás), pois em seu processo de decomposição é gerado o gás metano. Outra utilidade do lixo orgânico é a produção de adubo orgânico, muito usado na agricultura, através do processo de compostagem.</p>
+               <br>
+               <p>Fonte: https://www.suapesquisa.com/o_que_e/lixo_organico.htm</p>
+            </article>
+            <article><a name="vidro">
+               <h2>Como Reciclar Vidros</h2>
+               <hr>
+               <p>Uma das etapas mais importantes no processo de reciclagem de vidro é a separação e coleta seletiva do vidro. Nas empresas, condomínios e outros locais existem espaços destinados ao descarte de vidro.</p>
+               <br>
+               <h4>Separação no processo de reciclagem</h4>
+               <p>Uma das primeiras etapas no processo de reciclagem do vidro é sua separação por cores (âmbar, verde, translúcido e azul) e tipos (lisos, ondulados, vidros de janelas, de copos, etc.). Esta separação é de extrema importância para a fabricação de novos objetos de vidro, pois garante suas características e qualidades.</p>
+               <br>
+               <h4>Tipos de vidros recicláveis</h4>
+               <ul>
+                  <li>Garrafas de sucos, refrigerantes, cervejas e outros tipos de bebidas;</li>
+                  <li>Potes de alimentos</li>
+                  <li>Cacos de vidros</li>
+                  <li>Frascos de remédios</li>
+                  <li>Frascos de perfumes</li>
+                  <li>Vidros planos e lisos</li>
+                  <li>Para-brisas</li>
+                  <li>Vidros de janelas</li>
+                  <li>Pratos, tigelas e copos (desde que não sejam de acrílico, cerâmica ou porcelana)</li>
+               </ul>
+               <br>
+               <p>Fonte: https://www.suapesquisa.com/reciclagem/reciclagem_de_vidro.htm</p>
+            </article>
+            <article><a name="plastico">
+               <h2>Como Reciclar Plásticos</h2>
+               <hr>
+               <p>Uma das etapas mais importantes no processo de reciclagem de plástico é a separação e coleta seletiva do Plástico. Nas empresas, condomínios e outros locais existem espaços destinados ao descarte de plástico. Esta é uma atitude extremamente positiva e ecologicamente correta.</p>
+               <br>
+               <h4>Reciclagem de embalagens PET (politereftalato de etileno)</h4>
+               <p>Nas últimas décadas as indústrias, principalmente de bebidas e alimentos, estão substituindo as embalagens de vidro e latas pelas de plástico PET. Por serem mais resistentes e econômicas, o PET já está presente nas embalagens de sucos, águas, óleos e refrigerantes. Quando começou a ser usado, o PET não era reciclado e seu descarte na natureza provocava muita sujeira e poluição ambiental. Atualmente, a reciclagem de PET é praticada em larga escala por cooperativas e empresas de reciclagem. O processo de reciclagem do PET passa pelas seguintes etapas:</p>
+               <ol>
+                  <li>As embalagens PET são lavadas e passam por um processo de prensagem;</li>
+                  <li>Os fardos de PET são triturados, gerando os flocos;</li>
+                  <li>Os flocos passam por um processo de extrusão, gerando os grãos;</li>
+                  <li>Os grãos são transformados em fios de poliéster ou outros produtos plásticos.</li>
+               </ol>
+               <br>
+               <h4>Tipos de plásticos recicláveis (exemplos)</h4>
+               <ul>
+                  <li>Garrafas PET</li>
+                  <li>Potes Plásticos diversos</li>
+                  <li>Tampas de embalagens</li>
+                  <li>Sacos plásticos diversos</li>
+                  <li>Canos de PVC</li>
+                  <li>Componentes plásticos usados em eletrodomésticos</li>
+                  <li>Engradados de bebida</li>
+                  <li>Para-choques de carros</li>
+                  <li>Copos descartáveis</li>
+                  <li>Plásticos de brinquedos</li>
+                  <li>Embalagens de produtos de limpeza</li>
+               </ul>
+               <br>
+               <p>Fonte: https://www.suapesquisa.com/reciclagem/reciclagem_de_plastico.htm</p>
+            </article>
+            <article><a name="perigoso">
+               <h2>Como Reciclar Lixo Perigoso</h2>
+               <hr>
+               <p>Resíduo perigoso é todo aquele que apresenta significativo risco à saúde pública ou à qualidade ambiental devido a certas características. Ele pode ser inflamável, corrosivo, reativo, tóxico, patogênico, cancerígeno, teratogênico (pode interferir no embrião ou feto) e mutagênico (pode causar mutações).</p>
+               <p>Pensando nas graves consequências do descarte incorreto de tais resíduos e no potencial de reaproveitamento de alguns, a Política Nacional de Resíduos Sólidos (PNRS), lei 12.305/10, estabeleceu que determinados resíduos sólidos perigosos, após o consumo, devem retornar à indústria ou setor comercial para serem devidamente reciclados ou dispostos adequadamente em aterros.</p>
+               <p>Esse sistema é conhecido como logística reversa, pois o produto retorna do consumidor para o produtor. As classes de resíduos considerados perigosos são:</p>
+               <ul>
+                  <li>Agrotóxicos (incluindo resíduos e embalagens);</li>
+                  <li>Pilhas e baterias;</li>
+                  <li>Pneus;</li>
+                  <li>Óleos lubrificantes (incluindo resíduos e embalagens);</li>
+                  <li>Produtos eletroeletrônicos e seus componentes;</li>
+                  <li>Lâmpadas fluorescentes, de vapor de sódio e mercúrio e de luz mista</li>
+               </ul>
+               <p>O tratamento que os resíduos perigosos devem receber é diferente de orgânicos, recicláveis e rejeitos, que separamos em casa ou no trabalho.</p>
+               <br>
+               <p>Fonte: http://conexaoplaneta.com.br/blog/residuos-perigosos-o-que-fazer/</p>
+            </article>
+            <article><a name="radioativo">
+               <h2>Como reciclar Lixo Radiotivo</h2>
+               <hr>
+               <p>Lixo atômico, lixo radioativo, lixo nuclear ou rejeito radioativo são termos diferentes utilizados para designar os resíduos gerados pelos reatores nucleares e outros processos que resultem em resíduos contendo radioatividade de tal forma que não deve ser tratado como o lixo comum, sob pena de colocar em risco qualquer forma de vida.</p>
+               <br>
+               <h4>O lixo atômico se divide em três categorias diferentes de resíduos:</h4>
+               <ul>
+                  <li>HLW – alto nível de periculosidade;</li>
+                  <li>ILW – médio nível de periculosidade;</li>
+                  <li>LLW – baixo nível de periculosidade.</li>
+               </ul>
+               <br>
+               <h4>Reciclagem de Lixo Atômico</h4>
+               <p>Uma solução que tem sido empregada em alguns países, inclusive, no Brasil diz respeito a reciclagem de parte do material radioativo. Isso pode ser feito especialmente com resíduos de hospitais, por exemplo, uma bomba de césio-137 que não tem mais vida útil para o tratamento de tumores pode ser usada em aparelhos de gamagrafia que são utilizados para realizar diagnósticos.</p>
+               <p>O restante do material – o que não pode ser reaproveitado – deve passar por processo de compactação para que ocupe menos espaço. Porém, nem essa redução significativa no volume desse tipo de lixo acaba com a principal preocupação que cerca o tema, qual é o melhor cemitério para dar fim a essas substâncias. Existe esperança que no futuro seja possível encontrar soluções mais efetivas.</p>
+               <br>
+               <p>Fonte:http://meioambiente.culturamix.com/lixo/lixo-atomico</p>
+            </article>
+            <article><a name="ambulatorial">
+               <h2>Como reciclar Lixo Ambulatorial</h2>
+               <hr>
+               <p>Os hospitais e unidades de saúde produzem um grande volume de lixo devido a quantidade de serviços que oferecem. Dentre esses resíduos gerados nos hospitais podemos destacar fraldas, cateteres, ataduras, seringas, agulhas, sondas, curativos entre muitos outros produtos descartáveis e resíduos específicos.</p>
+               <p>Observando o tipo de lixo que é produzido num hospital podemos entender que existe um grande perigo para a saúde pública uma vez que o descarte incorreto de alguns materiais pode contribuir para que micro-organismos entrem em contato com pessoas saudáveis.</p>
+               <br>
+               <h4>As Três Categorias de Lixo Hospitalar</h4>
+               <ul>
+                  <li>Classe 1: Resíduos Perigosos – Os resíduos que apresentam maior risco de contaminação de pessoas e do ambiente. Um tipo de lixo que exige tratamento especial, pois podem ser resíduos inflamáveis, corrosivos ou tóxicos.</li>
+                  <li>Classe 2: Resíduos Não-inertes – Essa categoria de lixo os próprios hospitais descartam. Um tipo de resíduo que não é muito perigoso, mas que precisa de cuidados especiais por não estar totalmente inerte podendo entrar em combustão.</li>
+                  <li>Classe C: Resíduos Inertes – A categoria de lixo que é possível reciclar, trata-se de resíduos que não se degradam ou então que não se decompõem no solo. Basicamente são resíduos semelhantes a aqueles produzidos em residências, assim podem ser divididos em lixo orgânico e reciclável.</li>
+               </ul>
+               <br>
+               <p>Fonte:http://meioambiente.culturamix.com/lixo/reciclagem-de-lixo-hospitalar-por-dentro-do-processo</p>
+            </article>
+            <hr>
+         </div>
+         <a href="#menu" id="voltarTop"><img src="img/top.png" alt="voltar ao inicio" width="50" height="50"></a>
+      </section>
+      <footer>
+         <div class="rodape" >
+            <div class="redes"><a href="https://pt-br.facebook.com/" target="blank" > <img src="img/facebook.svg" alt="Icone Facebook" width="50px" height="50px"></a>
+               <a href="https://twitter.com/?lang=pt-br" target="blank"> <img src="img/twitter.svg" alt="Icone Twitter" width="50px" height="50px"></a>
+               <a href="https://www.linkedin.com/portugues" target="blank"> <img src="img/linkedin.svg" alt="Icone Linkedin" width="50px" height="50px"></a>   
+               <a href="https://www.blogger.com/home" target="blank"> <img src="img/blogger.svg" alt="Icone Blogger" width="50px" height="50px"></a>
+            </div>
+         </div>
+         <div class="rodape">
+            <p>Endereço: Av. Francisco Pignatari, 650<br>Vila Gustavo Correia, Carapicuíba - SP<br>CEP: 06310-390 Tel: (11)7788-6411</p>
+         </div>
+      </footer>
+      <script type="text/javascript" src="js/contraste.js"></script>
+      <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+      <script type="text/javascript" src="js/acessibilidade.js"></script>
+   </body>
+</html>
