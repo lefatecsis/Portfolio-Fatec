@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 80px;
+    background-color: #a0a0a0;
+    }
+/*Menu*/
+.menu {
+    width: 100%;
+    height: 80px;
+    overflow: hidden;
+    background-color: #333;
+}
+/* Estilo menu */
+.menu ul{
+    list-style: none;
+    position: relative;
+}
+.menu ul li {
+    width: 150px;
+    float: left;
+}
+.menu a{
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.menu li a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* */
+.home {
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: #a0a0a0;
+}
+.home h1 {
+    font-size: 32px;
+    font-style: bold;
+}
+.homeimg img {
+    width: 45%;
+    height: 45%;
+    position: relative;
+}
+.estrutura img{
+    width: 30%;
+    height: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.html5 img{
+    width: 30%;
+    height: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.html {
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: #a0a0a0;
+}
+.html h1 {
+    font-size: 32px;
+    font-style: bold;
+}
+.css {
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: #a0a0a0;
+}
+.css h1 {
+    font-size: 32px;
+    font-style: bold;
+}
+.formulario {
+    margin-left: 80px;
+    margin-right: 80px;
+    background-color: #a0a0a0;
+}
+.formulario h1 {
+    font-size: 32px;
+    font-style: bold;
+}
+.tabela {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #a0a0a0;
+}
+.tabela table {
+    border: 6px solid #948473;
+    background-color: #ffe3c6;
+    width: 50%;
+    text-align: left;
+}
+.tabela table th{
+    height: 100px;
+}
+#tb1 input {
+    width:100%;
+}
+
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #333;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #fff;
+
+}
+.rodape a{
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}

@@ -1,0 +1,60 @@
+body
+{
+    background-color: burlywood;
+    border-style: ridge;
+    border-width: 10px;
+    width: 100%;
+    height: 100%;
+}
+h2
+{
+    font-style: italic; 
+}
+footer
+{
+    background-color: sandybrown;
+    margin-top: 11cm;
+    text-align: center;
+    
+}
+/*BOTÕES PARA AS PÁGINAS */
+.home
+{
+    background-color: sandybrown;
+    border-style: solid;
+    border-color: black;
+    width: 100%;
+    height: 100%;
+}
+.html5
+{
+    width: 640px; 
+    height: 380px;
+    margin-left: 20px;
+    background-image: url(G:/html5/imagens/html5.jpg );
+    float: left;
+    font-size: 2000%;
+    text-decoration: none;
+    border-style: ridge;
+    border-width: 10px;
+}
+.b-html5
+{
+    opacity: 0;
+}
+.css3
+{
+    width: 640px; 
+    height: 380px;
+    margin-right: 20px;
+    background-image: url(G:/html5/imagens/css3.jpg );
+    float: right;
+    font-size: 2000%;
+    text-decoration: none;
+    border-style: ridge;
+    border-width: 10px;
+}
+.b-css3
+{
+    opacity: 0;
+}

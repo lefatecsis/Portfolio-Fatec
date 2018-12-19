@@ -1,0 +1,28 @@
+body
+{
+    background-color: burlywood;
+    border-style: ridge;
+    border-width: 10px;
+    width: 100%;
+    height: 100%;
+}
+h2
+{
+    background-color: coral
+}
+footer
+{
+    background-color: sandybrown;
+    text-align: center;
+    
+}
+
+/*BOTÕES PARA AS PÁGINAS */
+.home
+{
+    background-color: sandybrown;
+    border-style: solid;
+    border-color: black;
+    width: 100%;
+    height: 100%;
+}
